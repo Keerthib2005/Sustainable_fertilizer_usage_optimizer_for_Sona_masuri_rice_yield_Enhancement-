@@ -68,14 +68,7 @@ project/
 
 # ▶️ How to Run the Project
 
-## Step 1: Clone Repository
-
-```bash
-git clone <your-github-repo-link>
-cd project
-```
-
-## Step 2: Create Virtual Environment
+## Step 1: Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -88,12 +81,6 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-#### Linux / Mac
-```bash
-source venv/bin/activate
-```
-
----
 
 ## Step 3: Install Dependencies
 
@@ -106,7 +93,7 @@ pip install -r requirements.txt
 ## Step 4: Run Streamlit Application
 
 ```bash
-streamlit run app.py
+streamlit run run.py
 ```
 
 ---
@@ -133,12 +120,7 @@ This project uses SHAP (SHapley Additive Explanations) for:
 
 ---
 
-# 📈 Future Enhancements
 
-- Real-time weather integration
-- Mobile application support
-- Multi-crop recommendation system
-- IoT-based soil sensor integration
 
 ---
 
